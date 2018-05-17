@@ -1,6 +1,6 @@
 #strFunc
 myStr = "Hello W  W"
-'''
+
 #Capitalize first letter
 print(myStr.capitalize())
 
@@ -25,12 +25,12 @@ print(myStr.endswith("everyone"))
 
 #split 
 print(myStr.split())
-'''
+
 #Find
 print(myStr.find("W"))
 
 #Index (Same as find but throws error if its not there)
-'''print(myStr.index("W"))
+print(myStr.index("W"))
 
 #Is it alphanumeric
 print(myStr.isalnum())
@@ -40,4 +40,23 @@ print(myStr.isalpha())
 
 #Is it numeric
 print(myStr.isnumeric())
-'''
+
+spam = "whats up dawg"
+
+#print first letter
+print (spam[0])
+
+#print last letter 
+print(spam[-1])
+
+#checks if it contains it 
+ ans='Hello' in 'Hello World'
+print (ans)
+
+#joins lists
+strong=', '.join(['cats', 'rats', 'bats'])
+print (strong)
+
+#splits strings
+a ='My name is Simon'.split()
+print (a)
