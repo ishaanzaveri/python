@@ -1,2 +1,2 @@
-# python
-This where i will keep all my python files
+# Python
+This where I will upload all my python files as I learn to code in Python.
