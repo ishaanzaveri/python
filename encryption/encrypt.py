@@ -2,7 +2,6 @@
 
 alltext = "abcdefghijklmnopqrstuvwxyz1234567890 "
 symkey=""
-plaintext=""
 def CeaserEnc (data,psw):
 	cipertext=""
 	total = 0 
@@ -29,10 +28,6 @@ def CeaserEnc (data,psw):
 symkey = input("enter key ")
 print ("enter data")
 text = input()
-#encdec = input("enter E for encryption and D for decryption ")
-#if encdec == "E":
+
 cipertext = CeaserEnc(text,symkey)
 print(cipertext)
-#elif encdec == "D":
-#	plaintext = CeaserDec(text,symkey)
-#	print(plaintext)
