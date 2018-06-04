@@ -1,5 +1,6 @@
 #encryption 
 #a=97 z=122 <space>=32
+symkey=''
 def encrypt(data, psw):
 	cipertxt=""
 	total=0
